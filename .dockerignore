@@ -1,0 +1,41 @@
+# Git
+.git
+.gitignore
+
+# Documentation
+*.md
+!README.md
+
+# IDE
+.vscode
+.idea
+*.iml
+
+# Frontend
+frontend/node_modules
+frontend/dist
+frontend/.env
+frontend/.env.local
+
+# Backend
+myapp/target
+myapp/.env
+myapp/.mvn
+myapp/mvnw
+myapp/mvnw.cmd
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test
+**/test-results
+**/.jqwik-database
+
+# Temporary files
+*.tmp
+*.temp
